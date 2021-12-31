@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    color: bisque;
+}
+body{
+    background: peru;
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    flex: 1;
+    margin: 10px 0;
+}
+.main>aside{
+    flex: 0 0 20vw;
+    order: 1;
+    background: chocolate;
+    line-height:380px;
+    margin-right: 10px;
+}
+.main>article{
+    flex: 1;
+    order: 1;
+    background: cornflowerblue;
+}
+header,footer{
+    background: darkgreen;
+    padding: 10px 40px;
+
+}
+img{
+    width: 160px;
+}
+p{
+    margin-top: 300px;
+}
